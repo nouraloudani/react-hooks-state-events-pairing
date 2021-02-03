@@ -1,12 +1,12 @@
 
-function Video({embedUrl}) {
+function Video({ embedUrl }) {
   return (
     <iframe
     width="919"
     height="525"
     src={embedUrl}
-    frameborder="0"
-    title=""
+    frameBorder="0"
+    title="react video"
     />
   );
 

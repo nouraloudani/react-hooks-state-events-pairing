@@ -1,10 +1,9 @@
-//use commentList item as a parent
-function Comment({user, comment}) {
+function Comment({ user, comment }) {
   return (
-  <comment>
-      <h4>{user}</h4>
-      <h6>{comment}</h6>
-    </comment>
+    <div> 
+      <h3>{user}</h3> 
+      <p>{comment}</p> 
+    </div>
   );
 }
 
